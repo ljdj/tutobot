@@ -1,0 +1,17 @@
+{
+  "name": "tutobot",
+  "version": "1.0.0",
+  "description": "Tuto bot est un bot pour les tutos",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gregory",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "express": "^4.16.4",
+    "lowdb": "^1.0.0"
+  },
+  "devDependencies": {}
+}
