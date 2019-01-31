@@ -226,7 +226,7 @@ bot.on('message', message => {
         .setTitle(`Stats Utilisateur : ${message.author.username}`)
         .addField('xp', `${userXp[1]} XP`, true)
       message.author.send({embed: stats_embed})
-      console.log('Demande stat XP')
+      console.log('Demande stat XP en mp')
       break
 
   }
@@ -269,6 +269,7 @@ bot.on('message', message => {
       .setDescription('Voici tout vos xp monsieur !')
       .addField('XP :', `${xpfinal[1]} xp`)
     message.channel.send({embed: xp_embed})
+    console.log('Demande XP générale')
   }
 
 })
