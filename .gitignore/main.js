@@ -47,7 +47,7 @@ bot.on('guildMemberRemove', member => {
 
 bot.on('message', message => {
 
-  console.log(prefix)
+  //console.log(prefix)
 
   var msgauthor = message.author.id
 
