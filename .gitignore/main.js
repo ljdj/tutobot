@@ -226,6 +226,7 @@ bot.on('message', message => {
         .setTitle(`Stats Utilisateur : ${message.author.username}`)
         .addField('xp', `${userXp[1]} XP`, true)
       message.author.send({embed: stats_embed})
+      console.log('Demande stat XP')
       break
 
   }
